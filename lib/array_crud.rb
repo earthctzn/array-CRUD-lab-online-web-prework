@@ -1,14 +1,14 @@
 def create_an_empty_array
-  []
+  array = []
 end
 
 def create_an_array
-  Array.new(4"wow", "I", "am", "really", "learning")
+  array = Array.new(4"wow", "I", "am", "really", "learning")
 end
 
 def add_element_to_end_of_array(array, element)
  array = ["wow", "I", "am", "really", "learning"]
-    element = "arrays!"  
+    array << "arrays!"  
 end
 
 def add_element_to_start_of_array(array, element)
